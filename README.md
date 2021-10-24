@@ -18,10 +18,6 @@ The domain chosen for analysis is ***World Crops***
 
 **Data seed** - https://world-crops.com/ 
 
-## **Sources:** 
-
-**Seed source:** https://world-crops.com/ 
-
 **Supplementary sources:**  https://blog.ciat.cgiar.org/origin-of-crops/ 
 
 ## **Observations/ Insights and Analysis on the data collected :** 
