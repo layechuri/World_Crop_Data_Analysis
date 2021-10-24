@@ -1,12 +1,10 @@
 # World_Crop_Data_Analysis
 Python code to extract data from world crops website and perform exploratory analysis.
-## Executive Summary
 
-
-### **Problem Statement** 
+## **Problem Statement** 
 Scrape data from World Crop Database website and perform analysis on the same.
 
-### **Proposed Solution** 
+## **Proposed Solution** 
 
 **Scrape webpages** - using Beautiful Soup.
 
@@ -20,13 +18,13 @@ The domain chosen for analysis is ***World Crops***
 
 **Data seed** - https://world-crops.com/ 
 
-### **Sources:** 
+## **Sources:** 
 
 **Seed source:** https://world-crops.com/ 
 
 **Supplementary sources:**  https://blog.ciat.cgiar.org/origin-of-crops/ 
 
-### **Observations/ Insights and Analysis on the data collected :** 
+## **Observations/ Insights and Analysis on the data collected :** 
 
 1. The Middle East, North Africa, and Asia have a higher density of crop origins. 
 
@@ -40,7 +38,7 @@ The domain chosen for analysis is ***World Crops***
 
 6. The most frequently occurring genus, family, and order in the dataset correspond to those of the most economically important crops and most important food crops. 
 
-### **Strategy to enhance the data with crowd sourcing methods:** 
+## **Strategy to enhance the data with crowd sourcing methods:** 
 
 Primary points of data crowd sourcing could be farmers and traders from local mandis and crop markets, international traders in agricultural commodities and businesses in the food, beverage and restaurant industry.  
 
