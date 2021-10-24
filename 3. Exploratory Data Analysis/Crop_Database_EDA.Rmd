@@ -1,0 +1,76 @@
+---
+title: "DCPP Group Project - World Crop Database - EDA report"
+author:
+- Lakshmi Harshita Yechuri (12110035)
+- Ritesh Joshi (12110083)
+- Sneh Pranjal (12020031)
+- Aditya Vadrevu (12110028)
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup0, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE,message = FALSE)
+```
+
+### EDA: Fields chosen
+The following fields were chosen for exploratory data analysis, after considering both the relevance of the field and the data availability (completeness). 
+\begin{itemize}
+\item{Genus, family, and order: Distribution of crops by these three taxonomic ranks.}
+\item{Pollination analysis: Distribution of crops by the number of pollination methods.}
+\item{Climate and weather: How many crops grow in only one type of climate?}
+\item{Crop categories:Which crops belong to the most number of categories, that is, have diverse uses?}
+\item{Analysis of names: On average, which language contains the most names for crops.}
+\item{Crop life cycles: Annual, biennial, or perennial.}
+\item{Crop origins: Visualizing their geographical distribution on a world map}
+\end{itemize}
+
+#### Genus
+Figure 1 shows the distribution of crops by genus.We can see the top 20 genus categories in the scraped data below - Citrus being one of the most widely grown and consumed class of fruits in the world tops the list. This is followed by Brassica (cruciferous vegetables) and Solanum, which consists of food crops of great importance.
+
+![Distribution of crops by genus](C:\Users\DELL\OneDrive\Documents\AMPBA\Data collection and pre-processing\Group project\genus.jpg)
+
+#### Family
+Figure 2 shows the distribution of crops by family.We can see the top 20 family categories in the scraped data below. Fabaceae is the top category, which contains several important agricultural products such as beans, pea, soybean, and peanuts. Poaceae is the second-largest and comprises the majority of cereal crops. 
+
+![Distribution of crops by family](C:\Users\DELL\OneDrive\Documents\AMPBA\Data collection and pre-processing\Group project\family.jpg)
+
+#### Order
+Figure 3 shows the distribution of crops by family.We can see the top 20 family categories in the scraped data below. Fabaceae is the top category, which contains several important agricultural products such as beans, pea, soybean, and peanuts. Poaceae is the second-largest and comprises the majority of cereal crops. 
+
+![Distribution of crops by order](C:\Users\DELL\OneDrive\Documents\AMPBA\Data collection and pre-processing\Group project\order.jpg)
+
+#### Pollination analysis
+The pie chart (Figure 4) shows the distribution of crops by the number of pollination methods. We can see that while most crops have only one type of pollination, several crops have 2 types of pollination methods.
+
+![Pollination analysis](C:\Users\DELL\OneDrive\Documents\AMPBA\Data collection and pre-processing\Group project\Pollination.jpg)
+
+
+#### Climate and weather
+We find that the majority of crops where climate data is available grow in only one type of climate (107 out of 156). This makes sense because crop species are highly dependent on the weather patterns of their area of origin.
+
+#### Crop categories
+Figure 5 shows the distribution of crops by number of categories under which they can be classified. Almost all crops belong to multiple categories, and most crops belong to 3 or 4 categories. This might be related to the fact that world crop databases would tend to index crops which have multiple uses, are very widespread, and are of great importance to the general population. 
+
+![Crops by number of categories](C:\Users\DELL\OneDrive\Documents\AMPBA\Data collection and pre-processing\Group project\number of crop categories.jpg)
+
+#### Analysis of names
+On average, the English language contains the most variants of names for crops (3.15), compared to Dutch (1.51), Spanish (1.51), French (1.52), and German (1.99)
+
+#### Crop categories
+Figure 6 shows the distribution of crops by number of English names. Most crops have between 1 to 5 names. 
+
+![Distribution of crops by number of English names](C:\Users\DELL\OneDrive\Documents\AMPBA\Data collection and pre-processing\Group project\English.jpg)
+
+#### Annual, biennial, or perennial
+Of all the crops with cropping pattern data (90 crops), we find that 71 belong to only one category and 19 crops to two categories. Most of the crops have only type of cropping pattern reported. This makes sense because an annual or biennial crop cannot be perennial as well. 
+
+#### Crop origins
+The plot on [this link](file:///C:/Users/DELL/Downloads/crop_origins_plot.html) shows the distributions of crop origins on a world map.As observed on this map, the Middle East, North Africa, and Asia have a higher density of crop origins.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
