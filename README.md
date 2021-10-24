@@ -1,4 +1,4 @@
-# World_Crop_Data_Analysis
+# World Crop Data Analysis
 Python code to extract data from world crops website and perform exploratory analysis.
 
 ## **Problem Statement** 
@@ -26,7 +26,7 @@ The domain chosen for analysis is ***World Crops***
 
 ## **Observations/ Insights and Analysis on the data collected :** 
 
-1. The Middle East, North Africa, and Asia have a higher density of crop origins. 
+1. The Middle East, North Africa, and Asia have a higher density of crop origins - https://abcdefxyz123.s3.ap-south-1.amazonaws.com/crop-plot.html
 
 2. While most crops (65% of all crops with pollination information) have only one type of pollination, several crops (32%) have two types of pollination methods. 
 
